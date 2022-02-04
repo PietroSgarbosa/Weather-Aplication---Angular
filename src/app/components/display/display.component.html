@@ -1,0 +1,10 @@
+<h2>{{ weather.city }} </h2>
+<img [src]="weather.icon" style="float: left" />
+<p>
+  Conditions: {{ weather.conditions }}<br />
+  Temperature: {{ weather.temperature }} °F<br />
+</p>
+<br />
+<app-forecast-list
+  [forecast]="dailyForecast"
+></app-forecast-list>

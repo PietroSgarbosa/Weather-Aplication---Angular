@@ -1,0 +1,19 @@
+<div class="conteiner card">
+  <div class="row align-items-start">
+    <ng-container *ngFor="let day of forecast; let i = index">
+      <div class="col card2" *ngIf="i < 7">
+        <a
+          [routerLink]="['/dailyForecast', day.dt]"
+          [title]="day.dt + ' details'"
+          (click)="showDaytime(day.dt)"
+          (click)="saveData(day)"
+          class="routeButton"
+        >
+          Day: {{ i }}
+        </a>
+      </div>
+    </ng-container>
+  </div>
+  <br />
+  <router-outlet *ngIf="forecast"></router-outlet>
+</div>

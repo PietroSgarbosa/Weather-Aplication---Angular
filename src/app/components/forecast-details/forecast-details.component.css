@@ -1,0 +1,20 @@
+.backButton {
+  float: right;
+  margin-bottom: 10px;
+  bottom: 20px;
+  background-color: #00CED1;
+  border-radius: 0px 0px 15px 0px;
+}
+
+.card {
+  width: 26rem;
+  height: 12rem;
+  display:inline-table;
+  background-color:#9ff5f7;
+  border: none;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+}

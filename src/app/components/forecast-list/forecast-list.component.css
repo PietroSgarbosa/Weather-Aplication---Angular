@@ -1,0 +1,27 @@
+.card {
+  width: 38rem;
+  height: 21rem;
+  background-color: #9ff5f7;
+  padding: 0px 12px;
+  border-radius: 0px 0px 30px 0px;
+}
+
+.card2 {
+  width: 14%;
+  height: 4rem;
+  background-color: #00CED1;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: white;
+  border-radius: 0.1px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.day {
+  font-size: 15px;
+}
+
+.routeButton {
+  color: antiquewhite;
+}

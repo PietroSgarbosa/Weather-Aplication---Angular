@@ -1,0 +1,12 @@
+<div *ngIf="daytime">
+  <div class="conteiner card">
+    <p>Daytime: {{ routeForecast?.dt }}</p>
+    <div *ngFor="let data of dailyWeather">
+      <p> {{ data.description }} </p>
+      <p> {{ data.main }} </p>
+      <img [src]="data.icon" style="float: left" class="icon"/>
+    </div>
+  </div>
+  <br />
+  <button (click)="backToList()" class="backButton">Back</button>
+</div>
